@@ -18,7 +18,7 @@ A permutation of a set of distinct objects is an arrangement of these objects in
 
 ### Example
 
-In how many ways can 9 people be arranged in a single file?ù+
+In how many ways can 9 people be arranged in a single file?
 
 **Solution**
 
@@ -42,7 +42,7 @@ You want to form a committee of 3 people chosen from 20 people. How many committ
 
 By the fundamental principle, there are $C(20, 3) = \frac{20!}{3!(20-3)!} = 1140$ possible committees.
 
-Alternatively, we can use the fact that $C(n, r)$ is the same as saying $(20 * 19 * 18)/(3 * 2 * 1)$ that brings us to the same result of 1140.
+Alternatively, we can use the fact that $C(n, r)$ is the same as saying $\frac{20 * 19 * 18}{3 * 2 * 1}$ that brings us to the same result of 1140.
 
 
 
