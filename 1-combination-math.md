@@ -26,7 +26,17 @@ The first person can be any of the 9, the second any of the remaining 8, and so 
 
 ## Combinations
 
-A combination of $n$ distinct objects taken $r$ at a time is an unordered selection of $r$ objects from the set of $n$ objects. 
+A combination of $n$ distinct objects taken $r$ at a time is an unordered selection of $r$ objects from the set of $n$ objects.
+
+### Example
+
+For example, how many 3-letter sets can be formed with the 5 letters A, B, C, D and E?
+
+**Solution**
+
+The first letter can be any of the 5, the second any of the remaining 4, and the third any of the remaining 3. By the fundamental principle, there are $5 * 4 * 3 = 60$ possible 3-letter sets.
+
+But in this case we are counting each set 6 times, since each set can be arranged in 3! = 6 different ways. So the number of 3-letter sets is $\frac{5 * 4 * 3}{3!} = 10$.
 
 ### Binomial Coefficients
 
@@ -43,6 +53,10 @@ You want to form a committee of 3 people chosen from 20 people. How many committ
 By the fundamental principle, there are $C(20, 3) = \frac{20!}{3!(20-3)!} = 1140$ possible committees.
 
 Alternatively, we can use the fact that $C(n, r)$ is the same as saying $\frac{20 * 19 * 18}{3 * 2 * 1}$ that brings us to the same result of 1140.
+
+## Multinoimial Coefficients
+
+The number of ways of dividing $n$ distinct objects into $r$ distinct groups of sizes $n_1, n_2, ..., n_r$ is given by the multinomial coefficient:
 
 
 
