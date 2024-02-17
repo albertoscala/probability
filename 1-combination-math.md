@@ -14,3 +14,36 @@ One can see the mother's choice as the outcome of the first experiment and the s
 
 ## Permutations
 
+A permutation of a set of distinct objects is an arrangement of these objects in a definite order. The number of permutations of $n$ distinct objects is $n! = n(n-1)(n-2)...(3)(2)(1)$.
+
+### Example
+
+In how many ways can 9 people be arranged in a single file?ù+
+
+**Solution**
+
+The first person can be any of the 9, the second any of the remaining 8, and so on. By the fundamental principle, there are $9! = 362880$ possible arrangements.
+
+## Combinations
+
+A combination of $n$ distinct objects taken $r$ at a time is an unordered selection of $r$ objects from the set of $n$ objects. 
+
+### Binomial Coefficients
+
+The number of combinations of $n$ distinct objects taken $r$ at a time is denoted by $C(n, r)$ and is given by the formula:
+
+$$C(n, r) = \frac{n!}{r!(n-r)!}$$
+
+### Example
+
+You want to form a committee of 3 people chosen from 20 people. How many committees are possible?
+
+**Solution**
+
+By the fundamental principle, there are $C(20, 3) = \frac{20!}{3!(20-3)!} = 1140$ possible committees.
+
+Alternatively, we can use the fact that $C(n, r)$ is the same as saying $(20 * 19 * 18)/(3 * 2 * 1)$ that brings us to the same result of 1140.
+
+
+
+
