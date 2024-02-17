@@ -58,6 +58,19 @@ Alternatively, we can use the fact that $C(n, r)$ is the same as saying $\frac{2
 
 The number of ways of dividing $n$ distinct objects into $r$ distinct groups of sizes $n_1, n_2, ..., n_r$ is given by the multinomial coefficient:
 
+$$\frac{n!}{n_1!n_2!...n_r!}$$
+
+Where the sum of the $n_i$ is **MUST BE** equal to $n$.
+
+### Example
+
+A police station in a small town consists of 10 policemen. If 5 of them have to patrol the streets, 2 of them have to stay in the station and the other 3 have to be in reserve, in how many ways can the 3 tasks be assigned to the 10 policemen?
+
+**Solution**
+
+By the multinomial coefficient, there are $\frac{10!}{5!2!3!} = 2520$ possible ways to assign the tasks.
+
+
 
 
 
