@@ -20,6 +20,7 @@
     - [Axiom 1](#axiom-1)
     - [Axiom 2](#axiom-2)
     - [Axiom 3](#axiom-3)
+  - [Some simple properties of probability](#some-simple-properties-of-probability)
 
 ## Sample space 
 
@@ -114,3 +115,19 @@ $$P(S) = P(\Omega) = 1$$
 For each sequence of mutually exclusive events $E_1, E_2, \ldots$ (i.e. $E_i \cap E_j = \emptyset$ for $i \neq j$), the probability of the union of these events is equal to the sum of the probabilities of the individual events.
 
 $$P(\bigcup\limits_{i=1}^{\infty} E_{i}) = \sum_{i=1}^{\infty} P(E_{i})$$
+
+---
+
+We define $P(E)$ as the probability of the event $E$.
+
+## Some simple properties of probability
+
+Let's notice that $E$ and $E^c$ are always mutually exclusive and events. This means that $E \cap E^c = \emptyset$ and $E \cup E^c = S$. This implies that $P(E) + P(E^c) = P(S) = 1$.
+
+So the first proposition says that the probability of the complement of an event is:
+
+$$P(E^c) = 1 - P(E)$$
+
+Moving on to the second probability property. It says that if $E$ and $F$ are two events, where $E \subset F$, then $P(E) \leq P(F)$.
+
+$$If E \subset F\, then P(E) \leq P(F)$$
