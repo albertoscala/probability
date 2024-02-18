@@ -56,4 +56,8 @@ On the third example, the event $E = \lbrace(i,j):i+j = 7\rbrace$ is the event t
 
 ## Operations with events
 
-Given two events $E$ and $F$, we can define the following operation $E \cup F$
+Given two events $E$ and $F$, we can define the following operation $E \cup F$ as the event that either $E$ or $F$ occurs also known as the union/logical sum of $E$ and $F$.
+
+The operation $E \cap F$ is the event that both $E$ and $F$ occur also known as the intersection/logical product of $E$ and $F$.
+
+The operation $E^c$ is the event that $E$ does not occur also known as the complement of $E$. The complement of $E$ is the event that consists of all the outcomes in the sample space that are not in $E$.
