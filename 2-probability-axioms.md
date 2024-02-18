@@ -18,6 +18,8 @@
     - [Complement](#complement)
   - [Probability Axioms](#probability-axioms-1)
     - [Axiom 1](#axiom-1)
+    - [Axiom 2](#axiom-2)
+    - [Axiom 3](#axiom-3)
 
 ## Sample space 
 
@@ -100,3 +102,15 @@ The probability of an event $E$, denoted by $P(E)$, is a number that satisfies t
 The probability of an event is a non-negative number. That is, respects the following condition.
 
 $$ 0 \leq P(E) \leq 1$$
+
+### Axiom 2
+
+The probability of the sample space is 1.
+
+$$P(S) = P(\Omega) = 1$$
+
+### Axiom 3
+
+For each sequence of mutually exclusive events $E_1, E_2, \ldots$ (i.e. $E_i \cap E_j = \emptyset$ for $i \neq j$), the probability of the union of these events is equal to the sum of the probabilities of the individual events.
+
+$$P(\bigcup\limits_{i=1}^{\infty} E_{i}) = \sum_{i=1}^{\infty} P(E_{i})$$
