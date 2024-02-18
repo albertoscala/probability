@@ -31,3 +31,19 @@ $$S = {(i,j):i,j = 1,2,3,4,5,6}$$
 dove l’esito $(i,j)$ indica che il numero $i$ compare nel dado più a sinistra e $j$ nell’altro dado.
 
 ## Events
+
+Each subset $E$ of the sample space is called an event. In other words an event is a collection of possible outcomes of an experiment.
+
+#### Examples
+
+On the first example, the event $E = {f}$ is the event that the infant is a girl.
+
+---
+
+On the second example, the event $E = {(T,T),(T,C)}$ is the event that the first coin gave heads.
+
+---
+
+On the third example, the event $E = {(i,j):i+j = 7}$ is the event that the sum of the numbers on the two dice is 7.
+
+## Operations with events
