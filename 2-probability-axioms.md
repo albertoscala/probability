@@ -71,15 +71,15 @@ Given two events $E$ and $F$, we can define the following operation $E \cup F$ a
 
 ##### Commutative
 
-$$E \cup F = F \cup E   EF = FE$$
+$$E \cup F = F \cup E \; EF = FE$$
 
 ##### Associative
 
-$$(E \cup F) \cup G = E \cup (F \cup G)   (EF)G = E(FG)$$
+$$(E \cup F) \cup G = E \cup (F \cup G) \; (EF)G = E(FG)$$
 
 ##### Distributive
 
-$$(E \cup F)G = EG \cup FG   EF \cup G = (E \cup G)(F \cup G)$$
+$$(E \cup F)G = EG \cup FG \; EF \cup G = (E \cup G)(F \cup G)$$
 
 ### Intersection
 
