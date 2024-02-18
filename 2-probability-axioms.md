@@ -55,3 +55,5 @@ On the second example, the event $E = {(T,T),(T,C)}$ is the event that the first
 On the third example, the event $E = {(i,j):i+j = 7}$ is the event that the sum of the numbers on the two dice is 7.
 
 ## Operations with events
+
+Given two events $E$ and $F$, we can define the following operation $E\cupF$
