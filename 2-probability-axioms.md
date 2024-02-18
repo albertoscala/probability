@@ -56,4 +56,4 @@ On the third example, the event $E = \lbrace(i,j):i+j = 7\rbrace$ is the event t
 
 ## Operations with events
 
-Given two events $E$ and $F$, we can define the following operation $E\cupF$
+Given two events $E$ and $F$, we can define the following operation $E \cup F$
