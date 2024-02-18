@@ -21,6 +21,7 @@
     - [Axiom 2](#axiom-2)
     - [Axiom 3](#axiom-3)
   - [Some simple properties of probability](#some-simple-properties-of-probability)
+  - [Sample space with equally likely outcomes](#sample-space-with-equally-likely-outcomes)
 
 ## Sample space 
 
@@ -133,3 +134,11 @@ Moving on to the second probability property. It says that if $E$ and $F$ are tw
 $$If E \subset F\, then P(E) \leq P(F)$$
 
 [**Proof**](proof)
+
+The following property says that the probability of the union of two events is the sum of the probabilities of the individual events minus the probability of their intersection.
+
+$$P(E \cup F) = P(E) + P(F) - P(E \cap F)$$
+
+[**Proof**](proof)
+
+## Sample space with equally likely outcomes
