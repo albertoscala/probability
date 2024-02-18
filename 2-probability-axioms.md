@@ -16,7 +16,7 @@ where the outcome f will indicate that the infant is female and m that it is mal
 
 ---
 
-Se l’esperimento consiste nel lanciare successivamente due monete, allora lo spazio campionario è formato dai seguenti 4 punti:
+If the experiment consists of successively tossing two coins, then the sample space is formed by the following four points:
 
 $$S = {(T,T),(T,C),(C,T),(C,C)}$$
 
