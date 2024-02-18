@@ -9,6 +9,13 @@
   - [Events](#events)
       - [Examples](#examples-1)
   - [Operations with events](#operations-with-events)
+    - [Union](#union)
+      - [Union properties](#union-properties)
+        - [Commutative](#commutative)
+        - [Associative](#associative)
+        - [Distributive](#distributive)
+    - [Intersection](#intersection)
+    - [Complement](#complement)
 
 ## Sample space 
 
@@ -56,8 +63,28 @@ On the third example, the event $E = \lbrace(i,j):i+j = 7\rbrace$ is the event t
 
 ## Operations with events
 
+### Union
+
 Given two events $E$ and $F$, we can define the following operation $E \cup F$ as the event that either $E$ or $F$ occurs also known as the union/logical sum of $E$ and $F$.
 
+#### Union properties
+
+##### Commutative
+
+$$E \cup F = F \cup E   EF = FE$$
+
+##### Associative
+
+$$(E \cup F) \cup G = E \cup (F \cup G)   (EF)G = E(FG)$$
+
+##### Distributive
+
+$$(E \cup F)G = EG \cup FG   EF \cup G = (E \cup G)(F \cup G)$$
+
+### Intersection
+
 The operation $E \cap F$ is the event that both $E$ and $F$ occur also known as the intersection/logical product of $E$ and $F$.
+
+### Complement
 
 The operation $E^c$ is the event that $E$ does not occur also known as the complement of $E$. The complement of $E$ is the event that consists of all the outcomes in the sample space that are not in $E$.
