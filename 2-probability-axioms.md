@@ -130,4 +130,4 @@ $$P(E^c) = 1 - P(E)$$
 
 Moving on to the second probability property. It says that if $E$ and $F$ are two events, where $E \subset F$, then $P(E) \leq P(F)$.
 
-$$If E \subset F\, then P(E) \leq P(F)$$
+$$If \: E \subset F\,\: then P(E) \leq P(F)$$
