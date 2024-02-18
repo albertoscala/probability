@@ -2,6 +2,14 @@
 
 ## Table of Contents
 
+- [Probability Axioms](#probability-axioms)
+  - [Table of Contents](#table-of-contents)
+  - [Sample space](#sample-space)
+      - [Examples](#examples)
+  - [Events](#events)
+      - [Examples](#examples-1)
+  - [Operations with events](#operations-with-events)
+
 ## Sample space 
 
 The set of all possible outcomes of an experiment is called the sample space and is denoted by $S$ or $\Omega$.
