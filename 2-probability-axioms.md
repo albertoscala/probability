@@ -16,6 +16,8 @@
         - [Distributive](#distributive)
     - [Intersection](#intersection)
     - [Complement](#complement)
+  - [Probability Axioms](#probability-axioms-1)
+    - [Axiom 1](#axiom-1)
 
 ## Sample space 
 
@@ -88,3 +90,13 @@ The operation $E \cap F$ is the event that both $E$ and $F$ occur also known as 
 ### Complement
 
 The operation $E^c$ is the event that $E$ does not occur also known as the complement of $E$. The complement of $E$ is the event that consists of all the outcomes in the sample space that are not in $E$.
+
+## Probability Axioms
+
+The probability of an event $E$, denoted by $P(E)$, is a number that satisfies the following axioms:
+
+### Axiom 1
+
+The probability of an event is a non-negative number. That is, respects the following condition.
+
+$$ 0 \leq P(E) \leq 1$$
