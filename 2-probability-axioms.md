@@ -169,4 +169,4 @@ $$E = \lbrace(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)\rbrace$$
 
 Using the previous formula, we have:
 
-$$ P(E) = \frac{\abs{E}}{\abs{S}} = \frac{6}{36} = \frac{1}{6}$$
+$$ P(E) = \frac{|E|}{|S|} = \frac{6}{36} = \frac{1}{6}$$
