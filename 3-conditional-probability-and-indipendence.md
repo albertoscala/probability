@@ -7,9 +7,9 @@
   - [Conditional Probability](#conditional-probability)
       - [Example](#example)
   - [Product Rule](#product-rule)
-  - [Bayes Formula](#bayes-formula)
-    - [Total Probability Formula](#total-probability-formula)
+  - [Total Probability Formula](#total-probability-formula)
       - [Example](#example-1)
+  - [Bayes Formula](#bayes-formula)
   - [Odd Ratio](#odd-ratio)
       - [Example](#example-2)
   - [Indipendent Events](#indipendent-events)
@@ -63,15 +63,13 @@ $$P(E_1,E_2,E_3 ... E_n) = P(E_1)P(E_2|E_1) ... P(E_n|E_1 ... E_{n-1})$$
 
 [Proof](proof)
 
-## Bayes Formula
+## Total Probability Formula
 
 Given two events $E$ and $F$ with $0 < P(F) < 1$. We can write $E$ as:
 
 $$E = (EF) \cup (EF^c)$$
 
 If an elementary event is in $E$, then it is in $EF$ or $EF^c$. So we can write:
-
-### Total Probability Formula
 
 $$P(E) = P(EF) + P(EF^c)$$
 
@@ -88,6 +86,16 @@ An insurance company divides people into two classes: those who are accident pro
 We obtain the probability by conditioning first on whether the customer considered is accident prone or not. Let A1 be the event "the insured has an accident within one year of purchasing the policy" and let A be the event "the insured is accident prone". The probability $P(A_1)$ sought then holds:
 
 $$P(A_1) = P(A_1|A)P(A) + P(A_1|A^c)P(A^c) = 0.4 \times 0.3 + 0.2 \times 0.7 = 0.26$$
+
+## Bayes Formula
+
+The Bayes Formula is a consequence of the Total Probability Formula and the Product Rule. It gives us a way to express the conditional probability of one event given another in terms of the conditional probability of the other event given the first.
+
+The Bayes Formula is given by:
+
+$$P(F|E) = \frac{P(E|F)P(F)}{P(E)}$$
+
+[Proof](proof)
 
 ## Odd Ratio
 
