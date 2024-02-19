@@ -13,6 +13,9 @@
   - [Odd Ratio](#odd-ratio)
       - [Example](#example-2)
   - [Indipendent Events](#indipendent-events)
+    - [Definition](#definition)
+      - [Additional Notes](#additional-notes)
+    - [Test the Indipendence of Two Events](#test-the-indipendence-of-two-events)
 
 ## Conditional Probability
 
@@ -115,3 +118,23 @@ The Odd Ratio of $E$ is equal to 2.
 If we say that the Odd Ratio is equal to $\alpha$, you commonly say that the possibilities are "$\alpha$ to 1" in favour to the hypotesis.
 
 ## Indipendent Events
+
+Previously we have seen that $P(E|F)$ generally isn't equal to $P(E)$, the non conditional probability of $E$. However, there are some peculiar cases where $P(E|F) = P(E)$, and these are the cases where the events $E$ and $F$ are independent.
+
+If $P(F) > 0$, from the formula of conditional probability we have $P(E|F) = \frac{P(EF)}{P(F)}$ we see that $E$ is indipendent from $F$ if and only if:
+
+$$P(EF) = P(E)P(F)$$
+
+### Definition
+
+Two events $E$ and $F$ are independent if and only if $P(EF) = P(E)P(F)$. Two events that are **NOT** independent are called dependent.
+
+#### Additional Notes
+
+Let $E$ and $F$ be two indipendent events. Then $E$ and $F^c$ are also indipendent.
+
+[Proof](proof)
+
+### Test the Indipendence of Two Events
+
+[TODO] # (Take the examples from the exams)
