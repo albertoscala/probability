@@ -137,4 +137,4 @@ Let $E$ and $F$ be two indipendent events. Then $E$ and $F^c$ are also indipende
 
 ### Test the Indipendence of Two Events
 
-[TODO] # (Take the examples from the exams)
+[//] # (Take the examples from the exams)
