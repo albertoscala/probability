@@ -170,3 +170,9 @@ $$E = \lbrace(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)\rbrace$$
 Using the previous formula, we have:
 
 $$ P(E) = \frac{|E|}{|S|} = \frac{6}{36} = \frac{1}{6}$$
+
+## Proofs
+
+### Proof 1
+
+### Proof 2
