@@ -73,10 +73,10 @@ Then the distribution function is:
 $$
 F(a) =
 \begin{cases}
-    0 \quad a < 1 \\
-    \frac{1}{4} \quad 1 \leq a < 2 \\
-    \frac{3}{4} \quad 2 \leq a < 3 \\
-    \frac{7}{8} \quad 3 \leq a < 4 \\
-    1 \quad 4 \leq a
+    0 \qquad a < 1 \\
+    \frac{1}{4} \qquad 1 \leq a < 2 \\
+    \frac{3}{4} \qquad 2 \leq a < 3 \\
+    \frac{7}{8} \qquad 3 \leq a < 4 \\
+    1 \qquad 4 \leq a
 \end{cases}
 $$
