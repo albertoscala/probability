@@ -27,4 +27,4 @@ $$P(Y=3) = P(\lbrace(T,T,T)\rbrace) = \frac{1}{8}$$
 
 Since Y has to take one of the values 0,1,2,3, we have:
 
-$$1 = P(\Cup_{i=0}^{3}\lbrace Y = i \rbrace ) = \sum_{i=0}^{3} P\lbrace Y = i \rbrace$$
+$$1 = P(\bigcup_{i=0}^{3}\lbrace Y = i \rbrace ) = \sum_{i=0}^{3} P\lbrace Y = i \rbrace$$
