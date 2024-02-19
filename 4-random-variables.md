@@ -46,10 +46,12 @@ Since $X$ must assume at least one of the values $x_i$, we have that:
 
 $$\sum_{i=1}^{\infty} p(x_i) = 1$$
 
-Could be useful to rappresent the probability function of a discrete random variable in a table.
+Could be useful to rappresent the probability function of a discrete random variable in a table. For example:
 
+<p align="center">
 | $x_i$ | $p(x_i)$ |
 |-------|----------|
 | 0     | $\frac{1}{4}$      |
 | 1     | $\frac{1}{2}$      |
 | 2     | $\frac{1}{4}$      |
+</p>
