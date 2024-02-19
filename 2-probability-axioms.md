@@ -146,3 +146,11 @@ $$P(E \cup F) = P(E) + P(F) - P(E \cap F)$$
 In many cases, the sample space consists of a finite number of equally likely outcomes and it's natural to think that:
 
 $$P(\lbrace 1 \rbrace) = P(\lbrace 2 \rbrace) = ... = P(\lbrace N \rbrace)$$
+
+that, thanks to the previous axioms 2 and 3, takes us to:
+
+$$P(\lbrace i \rbrace) = \frac{1}{N} \qquad i = 1,2,...,N$$
+
+And because of the third axiom, for each event $E$ we have:
+
+$$P(E) = \frac{\text{number of outcomes in } E}{\text{number of outcomes in } S}$$
