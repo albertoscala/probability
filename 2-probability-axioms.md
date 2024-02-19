@@ -142,3 +142,7 @@ $$P(E \cup F) = P(E) + P(F) - P(E \cap F)$$
 [**Proof**](proof)
 
 ## Sample space with equally likely outcomes
+
+In many cases, the sample space consists of a finite number of equally likely outcomes and it's natural to think that:
+
+$$P(\lbrace 1 \rbrace) = P(\lbrace 2 \rbrace) = ... = P(\lbrace N \rbrace)$$
