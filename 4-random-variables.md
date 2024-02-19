@@ -9,6 +9,7 @@
   - [Discrete Random Variables](#discrete-random-variables)
     - [Discrete Density Function](#discrete-density-function)
     - [Discrete Distribution Function](#discrete-distribution-function)
+  - [Expected Value](#expected-value)
   
 ## Random Variables
  
@@ -80,3 +81,5 @@ F(a) =
     1 \qquad 4 \leq a
 \end{cases}
 $$
+
+## Expected Value
