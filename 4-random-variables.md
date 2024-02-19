@@ -82,4 +82,6 @@ F(a) =
 \end{cases}
 $$
 
+Note that the steps of the distribution function are equal to the values of the probability function.
+
 ## Expected Value
