@@ -71,6 +71,7 @@ $$p(1) = \frac{1}{4} \quad p(2) = \frac{1}{2} \quad p(3) = \frac{1}{8} \quad p(4
 Then the distribution function is:
 
 $$
+F(a) =
 \begin{cases}
     0 \quad a < 1 \\
     \frac{1}{4} \quad 1 \leq a < 2 \\
