@@ -49,9 +49,11 @@ $$\sum_{i=1}^{\infty} p(x_i) = 1$$
 Could be useful to rappresent the probability function of a discrete random variable in a table. For example:
 
 <center>
-    | $x_i$ | $p(x_i)$ |
-    |-------|----------|
-    | 0     | $\frac{1}{4}$      |
-    | 1     | $\frac{1}{2}$      |
-    | 2     | $\frac{1}{4}$      |
+
+| $x_i$ | $p(x_i)$ |
+|-------|----------|
+| 0     | $\frac{1}{4}$      |
+| 1     | $\frac{1}{2}$      |
+| 2     | $\frac{1}{4}$      |
+
 </center>
