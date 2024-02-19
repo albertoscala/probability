@@ -154,3 +154,19 @@ $$P(\lbrace i \rbrace) = \frac{1}{N} \qquad i = 1,2,...,N$$
 And because of the third axiom, for each event $E$ we have:
 
 $$P(E) = \frac{\text{number of outcomes in } E}{\text{number of outcomes in } S}$$
+
+#### Example
+
+If we roll two dice, what is the probability that the sum of the values on the
+upper face is equal to 7?
+
+**Solution**
+
+We solve this problem assuming that all 36 possible outcomes are equally likely. The event $E$ is the event that the sum of the values on the upper face is equal to 7. 
+The event $E$ consists of the following 6 outcomes:
+
+$$E = \lbrace(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)\rbrace$$
+
+Using the previous formula, we have:
+
+$$ P(E) = \frac{\abs{E}}{\abs{S}} = \frac{6}{36} = \frac{1}{6}$$
