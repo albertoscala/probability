@@ -7,6 +7,8 @@
   - [Random Variables](#random-variables-1)
       - [Example](#example)
   - [Discrete Random Variables](#discrete-random-variables)
+    - [Discrete Density Function](#discrete-density-function)
+    - [Discrete Distribution Function](#discrete-distribution-function)
   
 ## Random Variables
  
@@ -36,6 +38,8 @@ A random variable that can take on an infinite number of values is called discre
 
 $$p(a) = P\lbrace X = a \rbrace$$
 
+### Discrete Density Function
+
 The discrete density $p(a)$ is positive for no more than a numerable infinity of values of $a$. Thus, if $X$ assumes the values $x_1,x_2,...$, then
 
 $$p(x_i) \geq 0 \qquad i = 1,2,...$$
@@ -48,12 +52,30 @@ $$\sum_{i=1}^{\infty} p(x_i) = 1$$
 
 Could be useful to rappresent the probability function of a discrete random variable in a table. For example:
 
-<center>
-
 | $x_i$ | $p(x_i)$ |
 |-------|----------|
 | 0     | $\frac{1}{4}$      |
 | 1     | $\frac{1}{2}$      |
 | 2     | $\frac{1}{4}$      |
 
-</center>
+### Discrete Distribution Function
+
+The discrete distribution function $F$ can be expressed in function of $p(a)$ as follows:
+
+$$F(a) = \sum_{x \leq a} p(x)$$
+
+For example, if $X$ has the discrete density given by:
+
+$$p(1) = \frac{1}{4} \quad p(2) = \frac{1}{2} \quad p(3) = \frac{1}{8} \quad p(4) = \frac{1}{8}$$
+
+Then the distribution function is:
+
+$$
+\begin{cases}
+    0 \quad a < 1 \\
+    \frac{1}{4} \quad 1 \leq a < 2 \\
+    \frac{3}{4} \quad 2 \leq a < 3 \\
+    \frac{7}{8} \quad 3 \leq a < 4 \\
+    1 \quad 4 \leq a
+\end{cases}
+$$
