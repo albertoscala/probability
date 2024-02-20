@@ -117,3 +117,31 @@ $$E[X] = 1 \cdot \frac{1}{6} + 2 \cdot \frac{1}{6} + 3 \cdot \frac{1}{6} + 4 \cd
 
 ## Expected Value of a Function of a Random Variable
 
+Imagine we have a discrete random variable $X$ with it's descrete density and we want to calculate the expected value of some function of $X$, for example $g(X)$. How can we do that? 
+
+1. We determine the discrete density of $g(X)$ given the discrete density of $X$.
+2. We calculate the expected value of $g(X)$ using the discrete density of $g(X)$.
+
+#### Example
+
+Given $X$ a random variable that assumes the values $-1,0,1$ with probabilities:
+
+$$P\lbrace X = -1 \rbrace = 0.2 \quad P\lbrace X = 0 \rbrace = 0.5 \quad P\lbrace X = 1 \rbrace = 0.3$$
+
+Calculate $E[X^2]$.
+
+**Solution**
+
+Let $Y = X^2$. Then the values of $Y$ is given by:
+
+$$P\lbrace Y = 1 \rbrace = P\lbrace X = -1 \rbrace + P\lbrace X = 1 \rbrace = 0.5$$
+
+$$P\lbrace Y = 0 \rbrace = P\lbrace X = 0 \rbrace = 0.5$$
+
+Then:
+
+$$E[X^2] = E[Y] = 1(0.5) + 0(0.5) = 0.5$$
+
+Note that:
+
+$$0.5 = E[X^2] \neq (E[X])^2 = 0.01$$
