@@ -10,6 +10,10 @@
     - [Discrete Density Function](#discrete-density-function)
     - [Discrete Distribution Function](#discrete-distribution-function)
   - [Expected Value](#expected-value)
+      - [Example](#example-1)
+  - [Expected Value of a Function of a Random Variable](#expected-value-of-a-function-of-a-random-variable)
+      - [Example](#example-2)
+  - [Variance](#variance)
   
 ## Random Variables
  
@@ -145,3 +149,21 @@ $$E[X^2] = E[Y] = 1(0.5) + 0(0.5) = 0.5$$
 Note that:
 
 $$0.5 = E[X^2] \neq (E[X])^2 = 0.01$$
+
+---
+
+Another way to interpret the expected value of a function of a random variable is $E[g(X)]$. If you consider that $g(X)$ is a equal to $g(x)$ when $X$ is equal to $x$, it is obvious that $E[g(X)]$ is the weighted average of the values that $g(x)$, assigning to $g(X)$ the probability that $X$ will assume the value $x$ as a weight.
+
+If $X$ is a discrete random variable, that assumes the values $x_i,i \geq 1$ with probabilities $p(x_i)$, then for every real $g$ value function:
+
+$$E[g(X)] = \sum_{i}g(x_i)p(x_i)$$
+
+An additional property that can be derivated from the previous formula is that, if $a$ and $b$ are constants, then:
+
+$$E[aX + b] = aE[X] + b$$
+
+## Variance
+
+
+
+ 
