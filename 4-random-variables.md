@@ -85,3 +85,35 @@ $$
 Note that the steps of the distribution function are equal to the values of the probability function.
 
 ## Expected Value
+
+One of the most important concept of the probability theory is the expected value of a random variable. If $X$ is a random variable with discrete density $p(x)$, then the expected value of $X$, written as $E[X]$, is defined as:
+
+$$E[X] = \sum_{x:p(x)>0} x \cdot p(x)$$
+
+The expected value of $X$ is the weighted average of the values that $X$ can assume, weighted with the probability that $X$ will assume it.
+
+For example, if the density of $X$ is given by:
+
+$$p(0) = \frac{1}{2} = p(1)$$
+
+Then:
+
+$$E[X] = 0 \cdot \frac{1}{2} + 1 \cdot \frac{1}{2} = \frac{1}{2}$$
+
+Now let's consider a random variable $X$ with that assumes the values $x_1,x_2,...$ with probabilities $p(x_1),p(x_2),...$ and let's think that $X$ represents the earnings in a single game. This means that, with probability $p(x_i)$, we will win $x_i$ money unity, $i_1,i_2,...$.
+The expected earnings in a single game will be represented in the following way:
+
+$$\sum_{i=1}^{n} x_i \cdot p(x_i) = E[X]$$
+
+#### Example
+
+Calculate $E[X]$ when X represents the outcome of the roll of a balanced die.
+
+**Solution**
+
+Being $p(1)=p(2)=p(3)=p(4)=p(5)=p(6)=\frac{1}{6}$ we have:
+
+$$E[X] = 1 \cdot \frac{1}{6} + 2 \cdot \frac{1}{6} + 3 \cdot \frac{1}{6} + 4 \cdot \frac{1}{6} + 5 \cdot \frac{1}{6} + 6 \cdot \frac{1}{6} = \frac{21}{6} = \frac{7}{2} = 3.5$$
+
+## Expected Value of a Function of a Random Variable
+
