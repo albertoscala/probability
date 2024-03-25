@@ -27,7 +27,7 @@ All the notes are taken from the book "[INTRODUCTION TO PROBABILITY AND STATISTI
 
 ### [Probability Axioms](2-probability-axioms.md)
 
-### [Conditional Probability and Independence](3-conditional-probability-and-independence.md)
+### [Conditional Probability and Independence](3-conditional-probability-and-indipendence.md)
 
 ### [Random Variables](4-random-variables.md)
 
