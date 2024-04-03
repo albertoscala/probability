@@ -24,6 +24,25 @@ An urn contains 6 balls, 2 blue, 2 red and 2 green. Anton draws 2 balls with rei
 
 ## Exercise 2
 
-In a shop there are 100 boxes of light bulbs for sale, each box contains 10 bulbs, in which 3 are defective and 7 are not. Indipedently for each box the shopkeeper chooses 3 random bulbs: the 3 bulbs selected are  
+In a shop there are 100 boxes of light bulbs for sale, each box contains 10 bulbs, in which 3 are defective and 7 are not. Indipedently for each box the shopkeeper chooses 3 random bulbs: the 3 bulbs selected are all dinstincts and each tern of bulbs is equally likely to be chosen. If at least one of those bulbs is defective the box is considered defective and removed from the shelf, otherwise it is considered non-defective and kept on the shelf.
+
+- Let define the event $C_i = \lbrace \text{the i-th box is removed from the shelf} \rbrace$ for each $i \in \lbrace 1, ..., 100 \rbrace$,
+- Let define the random variable $X$, that represents the number of boxes removed from the shelf.
+
+1. Determine $\mathbb{P}(C_1)$,
+2. Determine $\mathbb{P}(C_1 \cap C^{c}_2)$,
+3. Specify what type of distribution is $X$ and determine $\mathbb{P}(X > 0)$,
+4. Determine $\mathbb{E}(X)$.
 
 ## Exercise 3
+
+Two team A and B play against each other infinite times. Every match ends with a win of one of the two teams or with a draw, the results are indipendent. The probability that team A wins is $\frac{1}{4}$, the probability that team B wins is $\frac{1}{2}$.
+
+- Let $X$ be the random variable that represents the number of mathces played until the first win of the team A,
+- Let $Z_i$ be a random variable that values 1 if the i-th match that ends with a tie and 0 otherwise.
+- Let $S_n$ the number of ties between the $n \in \mathbb{N}$ matches played.
+
+1. Specify what type of random variable is $X$ and determine its discrete density,
+2. Determine the discrete density of $Z_i$ and its expected value, $\mathbb{E}(Z_i)$,
+3. Specify the relationship between the random variable $S_n$ and the random variables $Z_1, Z_2, Z_3, ...$,
+4. Determine $\lim_{n \to \infty}\mathbb{P}(S_n \geq \frac{1}{8}n)$ applying the law of large numbers, specifying the value of the variable $\epsilon$ with which it was applied.
